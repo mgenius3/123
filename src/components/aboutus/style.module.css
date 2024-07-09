@@ -17,12 +17,31 @@
   position: relative;
 }
 
+.image1 {
+  background-image: url("../../../public/images/aboutus/home.png");
+  width: 50%;
+  height: 500px;
+}
 .aboutimage .subimages {
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin-left: 10px;
 }
+
+.image2 {
+  background-image: url("../../../public/images/aboutus/gas.png");
+  width: 100%;
+  height: 200px;
+}
+
+.image3 {
+  background-image: url("../../../public/images/aboutus/music.png");
+  width: 100%;
+  height: 200px;
+}
+
 .aboutimage img {
   transform-origin: center center;
   transition: all 0.3s ease-in-out;
@@ -106,13 +125,13 @@
     width: 100%;
   }
 
-  .aboutimage img {
+  /* .aboutimage img {
     width: 100%;
-  }
+  } */
 
-  .aboutimage .subimages {
+  /* .aboutimage .subimages {
     width: 100%;
-  }
+  } */
 }
 @media screen and (max-width: 768px) {
   .aboutimage {
@@ -121,7 +140,19 @@
   }
 
   .aboutimage .subimages {
-    display: block;
+    display: flex;
     margin-left: 0px;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  .image1 {
+    height: 200px;
+    width: 100%;
+  }
+  .image2,
+  .image3 {
+    width: 50%;
+    height: 100px;
   }
 }

@@ -3,7 +3,7 @@ import style from "./style.module.css";
 import WhoWeAre from "../whoweare";
 import Whatcanwedoforyou from "../whatcanwedoforyou";
 import OurServices from "./sections/ourservices";
-import AboutUs from "./sections/aboutus";
+import AboutUs from "../aboutus";
 import Consultation from "../consultation";
 import WhoWeAreRealEstate from "./sections/whoweare";
 

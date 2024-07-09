@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function OurServices() {
   return (
     <AnimatedSection>
-      <section className={style.main}>
+      <section className={style.main} id="services">
         <div className={style.container}>
           <div className={style.ourservicestext}>
             <p>Our Excellent Services</p>
@@ -18,11 +18,13 @@ export default function OurServices() {
           </div>
           <div className={style.allservices}>
             <div className={style.subservices}>
-              <img
+              {/* <img
                 src="/images/services/realestate1.png"
                 alt="oilgas icon"
                 className="img_animation"
-              />
+              /> */}
+              <div className={`${style.image1} bg_animation`}></div>
+
               <div className={style.subtext}>
                 <h6>Industrial</h6>
                 <p>
@@ -32,11 +34,12 @@ export default function OurServices() {
               </div>
             </div>
             <div className={style.subservices}>
-              <img
+              {/* <img
                 src="/images/services/realestate2.png"
                 alt="oilgas icon"
                 className="img_animation"
-              />
+              /> */}
+              <div className={`${style.image2} bg_animation`}></div>
 
               <div className={style.subtext}>
                 <h6>Commercial</h6>
@@ -47,11 +50,12 @@ export default function OurServices() {
               </div>
             </div>
             <div className={style.subservices}>
-              <img
+              {/* <img
                 src="/images/services/realestate3.png"
                 alt="oilgas icon"
                 className="img_animation"
-              />
+              /> */}
+              <div className={`${style.image3} bg_animation`}></div>
 
               <div className={style.subtext}>
                 <h6>Residential</h6>

@@ -15,8 +15,11 @@ export default function Home() {
       <Header
         setShowSideNav={setMobileSideNav}
         showSideNav={showmobilesidenav}
+        home={true}
       />
-      {showmobilesidenav && <SideNav />}
+      {showmobilesidenav && (
+        <SideNav home={true} setShowSideNav={setMobileSideNav} />
+      )}
       <Main />
       <Footer />
     </main>

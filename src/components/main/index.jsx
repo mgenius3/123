@@ -4,7 +4,8 @@ import WhoWeAre from "../whoweare";
 import Whatcanwedoforyou from "../whatcanwedoforyou";
 import Corporation from "./sections/corporation";
 import OurServices from "./sections/ourservices";
-import AboutUs from "./sections/aboutus";
+import AboutUs from "../aboutus";
+// import AboutUs from "./sections/aboutus";
 import Consultation from "../consultation";
 
 export default function Main() {

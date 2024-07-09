@@ -106,4 +106,14 @@
     font-size: 22.96px;
     line-height: normal;
   }
+
+  .whatwe > div > p:first-child {
+    font-size: 15.94px;
+    line-height: normal;
+  }
+
+  .whatwe > div > p:last-child {
+    font-size: 12.5px;
+    list-style: normal;
+  }
 }

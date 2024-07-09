@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function AboutUs() {
   return (
     <AnimatedSection>
-      <section className={style.main}>
+      <section className={style.main} id="about">
         <div className={style.container}>
           <div className={style.aboutimage}>
             <img src="/images/aboutus/home.png" />

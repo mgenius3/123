@@ -5,13 +5,17 @@ import Image from "next/image";
 export default function AboutUs() {
   return (
     <AnimatedSection>
-      <section className={style.main}>
+      <section className={style.main} id="about">
         <div className={style.container}>
           <div className={style.aboutimage}>
-            <img src="/images/aboutus/aboutframe.png" />
+            {/* <img src="/images/aboutus/home.png" /> */}
+            <div className={`${style.image1} bg_animation`}></div>
             <div className={style.subimages}>
-              <img src="/images/aboutus/aboutframe1.png" />
-              <img src="/images/aboutus/aboutframe2.png" />
+              <div className={`${style.image2} bg_animation`}></div>
+              <div className={`${style.image3} bg_animation`}></div>
+
+              {/* <img src="/images/aboutus/gas.png" />
+              <img src="/images/aboutus/music.png" /> */}
             </div>
           </div>
           <div className={style.aboutus}>

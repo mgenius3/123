@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Corporation() {
   return (
     <AnimatedSection>
-      <section className={style.main}>
+      <section className={style.main} id="subsidiaries">
         <div className={style.container}>
           <h3>Our Subsidiary Corporation</h3>
           <p className="subtext">

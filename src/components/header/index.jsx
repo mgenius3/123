@@ -1,7 +1,8 @@
 import Image from "next/image";
 import style from "./style.module.css";
+import Link from "next/link";
 
-export default function Header({ showSideNav, setShowSideNav }) {
+export default function Header({ showSideNav, setShowSideNav, home = false }) {
   return (
     <header className={style.container}>
       <nav className={style.desktop}>
@@ -9,16 +10,49 @@ export default function Header({ showSideNav, setShowSideNav }) {
           <Image src={"/svg/logo.svg"} width={208} height={8.95} />
         </div>
 
-        <div className={style.link}>
-          <p>Home</p>
-          <p>About us</p>
-          <p>Services</p>
-          <p>Contact Us</p>
+        {home ? (
+          <div className={style.link}>
+            <Link href="#about">
+              <p>About Us</p>
+            </Link>
+            <Link href="#subsidiaries">
+              <p>Subsidiaries</p>
+            </Link>
+            <Link href="#services">
+              <p>Services</p>
+            </Link>
+            <Link href="#contact">
+              <p>Contact Us</p>
+            </Link>
 
-          <div className={style.button}>
-            <p>Request a call back</p>
+            <div className={style.button}>
+              <Link href="#contact">
+                <p>Request a call back</p>
+              </Link>
+            </div>
           </div>
-        </div>
+        ) : (
+          <div className={style.link}>
+            <Link href="/">
+              <p>Home</p>
+            </Link>
+            <Link href="#about">
+              <p>About us</p>
+            </Link>
+            <Link href="#services">
+              <p>Services</p>
+            </Link>
+            <Link href="#contact">
+              <p>Contact Us</p>
+            </Link>
+
+            <div className={style.button}>
+              <Link href="#contact">
+                <p>Request a call back</p>
+              </Link>
+            </div>
+          </div>
+        )}
       </nav>
 
       <nav className={style.mobile}>

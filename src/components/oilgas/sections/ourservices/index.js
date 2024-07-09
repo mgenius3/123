@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function OurServices() {
   return (
     <AnimatedSection>
-      <section className={style.main}>
+      <section className={style.main} id="services">
         <div className={style.container}>
           <div className={style.headtext}>
             <h3>Our Services</h3>

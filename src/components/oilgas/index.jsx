@@ -4,6 +4,7 @@ import Whatcanwedoforyou from "../whatcanwedoforyou";
 import OurServices from "./sections/ourservices";
 import Consultation from "../consultation";
 import Display from "./sections/display";
+import AboutUs from "../aboutus";
 import NewsThatHelps from "./sections/news";
 
 export default function OilGas() {
@@ -56,6 +57,7 @@ export default function OilGas() {
       <OurServices />
       <Display />
       <NewsThatHelps />
+      <AboutUs />
       <Consultation />
       <Whatcanwedoforyou />
     </main>

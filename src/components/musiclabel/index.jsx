@@ -4,6 +4,7 @@ import WhoWeAre from "../whoweare";
 import Whatcanwedoforyou from "../whatcanwedoforyou";
 import OurServices from "./sections/ourservices";
 import Consultation from "../consultation";
+import AboutUs from "../aboutus";
 import WhoWeAreMusicLabel from "./sections/whoweare";
 import Records from "./sections/records";
 
@@ -52,6 +53,7 @@ export default function MusicLabel() {
       <OurServices />
       <WhoWeAreMusicLabel />
       <Records />
+      <AboutUs />
       <Consultation />
       <Whatcanwedoforyou />
     </main>

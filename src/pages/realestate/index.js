@@ -15,7 +15,7 @@ export default function Home() {
         setShowSideNav={setMobileSideNav}
         showSideNav={showmobilesidenav}
       />
-      {showmobilesidenav && <SideNav />}
+      {showmobilesidenav && <SideNav setShowSideNav={setMobileSideNav} />}
       <RealEstate />
       <Footer />
     </main>

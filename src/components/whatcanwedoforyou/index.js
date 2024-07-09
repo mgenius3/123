@@ -3,7 +3,7 @@ import AnimatedSection from "../animatedSection";
 export default function WhatCanWeDoForYou() {
   return (
     <AnimatedSection>
-      <section className={style.main}>
+      <section className={style.main} id="contact">
         <div className={style.container}>
           <h3>What can we do for you?</h3>
           <p className="subtext">
