@@ -1,0 +1,58 @@
+.container {
+  width: 100%;
+  background: linear-gradient(
+    90.38deg,
+    rgba(255, 255, 255, 0.6) -12.04%,
+    rgba(255, 255, 255, 0.6) 122.28%
+  );
+
+  padding: 5px 0px;
+  font-family: Roboto;
+  position: fixed;
+  top: 0px;
+}
+
+.desktop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 50px;
+}
+
+.mobile {
+  display: none;
+}
+
+.logo {
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link > * {
+  margin: 0px 20px;
+  font-size: 21px;
+}
+
+.button {
+  border-radius: 14px;
+  border: 1.5px solid black;
+  padding: 10px 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    padding: 10px 20px;
+  }
+  .mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .desktop {
+    display: none;
+  }
+}

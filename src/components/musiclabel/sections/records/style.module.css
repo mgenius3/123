@@ -1,0 +1,180 @@
+.main {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  padding: 30px 50px;
+}
+.container h2 {
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 61.44px;
+  letter-spacing: -0.47999998927116394px;
+  text-align: center;
+  color: rgba(249, 196, 118, 1);
+}
+.subheadtext {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.1599999964237213px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.display {
+  display: flex;
+  position: relative;
+}
+.imagedisplay {
+  width: 80%;
+  display: flex;
+  /* align-items: stretch; */
+}
+
+.image1 {
+  background-image: url("../../../../../public/images/headsetboy.png");
+  width: 50%;
+  height: 500px;
+  position: relative;
+  z-index: 10;
+}
+
+.subimage {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.image2 {
+  background-image: url("../../../../../public/images/microphone.png");
+  width: 300px;
+  height: 250px;
+  position: absolute;
+  left: -50px;
+  top: -50px;
+}
+
+.image3 {
+  background-image: url("../../../../../public/images/musicalset.png");
+  width: 300px;
+  height: 250px;
+  position: absolute;
+  left: -50px;
+  bottom: -50px;
+}
+.recordtext > span {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.recordtext > span > p {
+  font-family: Roboto;
+  font-size: 13.5px;
+  font-weight: 700;
+  line-height: 13.5px;
+  letter-spacing: -0.13500000536441803px;
+  text-align: center;
+  color: rgba(249, 196, 118, 1);
+  border: 1px solid rgba(249, 196, 118, 1);
+  border-radius: 4px;
+  padding: 3px;
+  margin-right: 20px;
+}
+
+.bigtext {
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 61.44px;
+  letter-spacing: -0.47999998927116394px;
+  text-align: left;
+}
+
+.smalltext {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.1599999964237213px;
+  text-align: left;
+}
+
+.specialtext > p:first-child {
+  font-family: Roboto;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 76.8px;
+  letter-spacing: -0.6000000238418579px;
+  color: rgba(249, 196, 118, 1);
+}
+
+.specialtext > p:last-child {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: -0.18000000715255737px;
+
+  color: rgba(178, 178, 178, 1);
+}
+
+@media screen and (max-width: 1024px) {
+  .display {
+    display: block;
+    margin: auto;
+  }
+  .recordtext {
+    position: relative;
+    z-index: 10;
+    margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .imagedisplay {
+    display: block;
+  }
+  .image1 {
+    background-image: url("../../../../../public/images/headsetboy.png");
+    height: 200px;
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .image2 {
+    background-image: url("../../../../../public/images/microphone.png");
+    height: 150px;
+    position: relative;
+    display: none;
+  }
+
+  .image3 {
+    background-image: url("../../../../../public/images/musicalset.png");
+    width: 100px;
+    height: 150px;
+    display: none;
+    position: relative;
+  }
+  .recordtext {
+    position: relative;
+    z-index: 10;
+    margin-top: 0px;
+  }
+  .bigtext {
+    font-size: 22px;
+    line-height: normal;
+    margin: 10px 0px;
+  }
+  .smalltext {
+    font-size: 17px;
+    line-height: normal;
+  }
+}

@@ -1,0 +1,69 @@
+.main {
+  background-color: white;
+}
+
+.container {
+  padding: 30px 50px;
+}
+
+.container h3 {
+  background-color: rgba(245, 245, 245, 1);
+  padding: 0px 21px;
+  text-align: center;
+}
+
+.headtext {
+  width: max-content;
+  margin: auto;
+}
+
+.serviceslist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.serviceslist span {
+  border: 1.05px solid rgba(0, 0, 0, 1);
+  box-shadow: 0px 4.19px 4.19px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 20.95px;
+  width: 23%;
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+  padding: 25px 20px;
+  transition: all 0.5s linear;
+}
+
+.serviceslist span:hover {
+  background-color: black;
+}
+.serviceslist span:hover > p {
+  color: white;
+}
+
+.serviceslist span:hover > img {
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+.serviceslist span > p {
+  font-family: Roboto;
+  font-size: 25.14px;
+  font-weight: 600;
+  line-height: 20.95px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .serviceslist span {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .serviceslist span {
+    width: 95%;
+  }
+}

@@ -1,0 +1,98 @@
+.container {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+.main {
+  padding: 50px 0px;
+  font-family: Roboto;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 50px;
+}
+
+.details {
+  display: flex;
+}
+
+.details > p {
+  font-weight: 400;
+  font-size: 22.28px;
+  margin: 0px 5px;
+}
+.detailshead {
+  font-weight: 500 !important;
+}
+
+.newsletterinput {
+  border: 1.11px solid #ffffff;
+  padding: 11.14px 8.91px;
+  border-radius: 4.46px;
+}
+
+.button {
+  background-color: #f9c476;
+  color: black;
+  padding: 17.83px 22.28px;
+  border-radius: 4.46px;
+  font-weight: 600;
+  font-size: 20.6px;
+  margin: 0px 5px;
+}
+
+.headtext {
+  font-weight: 500;
+  font-size: 22.28px;
+}
+
+.logotext {
+  font-weight: 700;
+  font-size: 33.43px;
+  margin: 0px 5px;
+  font-style: italic;
+}
+
+@media screen and (max-width: 1024px) {
+  .main {
+    display: block;
+    width: 90%;
+    margin: auto;
+  }
+  .main section {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main {
+    display: block;
+    width: 90%;
+    margin: auto;
+  }
+  .main section {
+    width: 90%;
+    margin: auto;
+  }
+
+  .logotext {
+    font-size: 15.43px;
+  }
+  .details {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  .detailshead {
+    margin-bottom: 2px !important;
+  }
+  .prop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    margin-bottom: 50px !important;
+  }
+}

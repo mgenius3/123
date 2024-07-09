@@ -17,17 +17,64 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #f9c476;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+h3 {
+  font-family: Roboto;
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 43.36px;
+  text-align: center;
+  white-space: nowrap;
+  padding: 20px 0px;
+}
+
+.subtext {
+  font-family: Roboto;
+  font-size: 20.13px;
+  font-weight: 400;
+  line-height: 23.59px;
+  text-align: center;
+}
+
+.img_animation {
+  transform-origin: center center;
+  transition: all 0.3s ease-in-out;
+}
+
+.img_animation:hover {
+  transform: scale(1.1);
+}
+.bg_animation {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  transition: all 0.5s ease;
+}
+
+.bg_animation:hover {
+  background-size: 150%; /* Increase the background size to create zoom effect */
+  background-position: center; /* Keep the background image centered */
+}
+
+@media screen and (max-width: 768px) {
+  h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 43.36px;
+    word-wrap: break-word;
+    white-space: break-spaces;
+  }
+
+  .subtext {
+    font-size: 18.13px;
+    line-height: 22.59px;
   }
 }

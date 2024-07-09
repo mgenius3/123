@@ -1,0 +1,45 @@
+.main {
+  background-image: url("../../../public/images/aboutus/aboutbg.png");
+  background-size: cover; /* Ensures the background image covers the entire container */
+  background-position: center; /* Initial position of the background image */
+  transition: background-position 0.3s ease; /* Smooth transition */
+}
+.main:hover {
+  background-position: right top; /* Change the position on hover */
+}
+.container {
+  padding: 30px 50px;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  width: 60%;
+}
+
+.text h3 {
+  text-align: left !important;
+  white-space: pre-wrap;
+}
+
+.button {
+  border: 1px solid;
+  width: max-content;
+  padding: 5px 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .text {
+    width: 100%;
+  }
+  .container {
+    display: block;
+  }
+
+  .button {
+    margin: 20px 0px;
+  }
+}

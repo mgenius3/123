@@ -1,10 +1,9 @@
-import Image from "next/image";
 import { Inter } from "next/font/google";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import SideNav from "@/components/sidenav";
-import Main from "@/components/main";
 import { useState } from "react";
+import OilGas from "@/components/oilgas";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,7 +16,7 @@ export default function Home() {
         showSideNav={showmobilesidenav}
       />
       {showmobilesidenav && <SideNav />}
-      <Main />
+      <OilGas />
       <Footer />
     </main>
   );
