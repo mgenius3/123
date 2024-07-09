@@ -7,8 +7,8 @@ export default function WhatCanWeDoForYou() {
         <div className={style.container}>
           <h3>What can we do for you?</h3>
           <p className="subtext">
-            We are ready to work on a project of any complexity, whether it's
-            commercial or residential
+            We are ready to work on a project of any complexity, whether
+            it&apos;s commercial or residential
           </p>
 
           <div className={style.formfield}>

@@ -55,9 +55,9 @@ export default function Display() {
             <h6>Transforming transportation</h6>
             <p>
               Meeting global transportation needs while managing emissions
-              requires multiple solutions, and we're taking a comprehensive,
-              science-based approach to drive efficiencies that will ultimately
-              help decarbonize transportation.
+              requires multiple solutions, and we&apos;re taking a
+              comprehensive, science-based approach to drive efficiencies that
+              will ultimately help decarbonize transportation.
             </p>
 
             <span>
