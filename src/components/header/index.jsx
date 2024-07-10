@@ -15,19 +15,19 @@ export default function Header({ showSideNav, setShowSideNav, home = false }) {
             <Link href="#about">
               <p>About Us</p>
             </Link>
-            <Link href="#subsidiaries">
+            <Link href="/#subsidiaries">
               <p>Subsidiaries</p>
             </Link>
-            <Link href="#services">
+            <Link href="/#services">
               <p>Services</p>
             </Link>
-            <Link href="#contact">
+            <Link href="/#contact">
               <p>Contact Us</p>
             </Link>
 
             <div className={style.button}>
-              <Link href="#contact">
-                <p>Request a call back</p>
+              <Link href="/letter">
+                <p>A Letter From Our CEO</p>
               </Link>
             </div>
           </div>
@@ -48,7 +48,7 @@ export default function Header({ showSideNav, setShowSideNav, home = false }) {
 
             <div className={style.button}>
               <Link href="#contact">
-                <p>Request a call back</p>
+                <p>A Letter From Our CEO</p>
               </Link>
             </div>
           </div>

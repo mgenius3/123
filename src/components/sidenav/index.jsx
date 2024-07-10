@@ -16,19 +16,19 @@ export default function SideNav({ home = false, setShowSideNav }) {
           <Link onClick={() => setShowSideNav(false)} href="#about">
             <p>About Us</p>
           </Link>
-          <Link onClick={() => setShowSideNav(false)} href="#subsidiaries">
+          <Link onClick={() => setShowSideNav(false)} href="/#subsidiaries">
             <p>Subsidiaries</p>
           </Link>
-          <Link onClick={() => setShowSideNav(false)} href="#services">
+          <Link onClick={() => setShowSideNav(false)} href="/#services">
             <p>Services</p>
           </Link>
-          <Link onClick={() => setShowSideNav(false)} href="#contact">
+          <Link onClick={() => setShowSideNav(false)} href="/#contact">
             <p>Contact Us</p>
           </Link>
 
           <div className={style.button}>
-            <Link onClick={() => setShowSideNav(false)} href="#contact">
-              <p>Request a call back</p>
+            <Link onClick={() => setShowSideNav(false)} href="/letter">
+              <p>A Letter From Our CEO</p>
             </Link>
           </div>
         </div>
@@ -48,8 +48,8 @@ export default function SideNav({ home = false, setShowSideNav }) {
           </Link>
 
           <div className={style.button}>
-            <Link onClick={() => setShowSideNav(false)} href="#contact">
-              <p>Request a call back</p>
+            <Link onClick={() => setShowSideNav(false)} href="/letter">
+              <p>A Letter From Our CEO</p>
             </Link>
           </div>
         </div>

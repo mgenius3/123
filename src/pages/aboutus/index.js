@@ -6,16 +6,18 @@ import SideNav from "@/components/sidenav";
 import { useState, useEffect } from "react";
 const About = () => {
   const [showmobilesidenav, setMobileSideNav] = useState(false);
-  const [currentImage, setCurrentImage] = useState(0);
+  const [current, setcurrent] = useState(0);
   const images = [
-    "/images/luxuryhomes.png",
+    "/images/luxuryhomeshd.jpg",
     "/images/gasbluebghd.png",
-    "/images/recordlabel.png",
+    "/images/musicalset.jpg",
   ];
+
+  const currentTitle = ["Real Estate", "Oil & Gas", "Record Label"];
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentImage((prevImage) => (prevImage + 1) % images.length);
+      setcurrent((prevImage) => (prevImage + 1) % images.length);
     }, 3000); // Change image every 3 seconds
 
     return () => clearInterval(interval);
@@ -33,80 +35,85 @@ const About = () => {
       <div className={styles.container}>
         <header
           className={styles.header}
-          style={{ backgroundImage: `url(${images[currentImage]})` }}
+          style={{ backgroundImage: `url(${images[current]})` }}
         >
           <h1>About Us</h1>
+          <p>231 {currentTitle[current]}</p>
         </header>
 
         <section className={styles.section}>
           <h2>Welcome to 231 Group</h2>
           <p>
-            231 Group is a diversified conglomerate dedicated to excellence
-            across multiple sectors. Founded by Jerrydim Ikechukwu, our company
-            has grown from its roots in Enugu State, Nigeria, to encompass a
-            range of thriving subsidiaries.
+            <b className={styles.specialtext}>231 </b> Group is a diversified
+            conglomerate dedicated to excellence across multiple sectors.
+            Founded by Jerrydim Ikechukwu, our company has grown from its roots
+            in Enugu State, Nigeria, to encompass a range of thriving
+            subsidiaries.
           </p>
         </section>
 
         <section className={styles.section}>
-          <h2>Our Subsidiaries</h2>
+          {/* <h2>Our Subsidiaries</h2> */}
 
           <div className={styles.subsidiary}>
-            <Image
-              src="/oil_and_gas.jpg"
-              alt="231 Oil and Gas"
-              width={500}
-              height={300}
-            />
-            <h3>231 Oil and Gas</h3>
-            <p>
-              Specializing in the sale, distribution, and supply chain
-              management of liquefied petroleum gas (LPG), 231 Oil and Gas
-              ensures reliable and efficient energy solutions. We prioritize
-              quality and safety in every aspect of our operations, catering to
-              both commercial and residential needs.
-            </p>
+            <div>
+              <h3>231 Oil and Gas</h3>
+              <p>
+                Specializing in the sale, distribution, and supply chain
+                management of liquefied petroleum gas (LPG), 231 Oil and Gas
+                ensures reliable and efficient energy solutions. We prioritize
+                quality and safety in every aspect of our operations, catering
+                to both commercial and residential needs.
+              </p>
+            </div>
+
+            <div className={styles.imagelist}>
+              <div className={styles.gasimage1 + " " + "bg_animation"}></div>
+              <div className={styles.gasimage2 + " " + "bg_animation"}></div>
+            </div>
           </div>
 
           <div className={styles.subsidiary}>
-            <Image
-              src="/luxury_homes.jpg"
-              alt="231 Luxury Homes"
-              width={500}
-              height={300}
-            />
-            <h3>231 Luxury Homes</h3>
-            <p>
-              At 231 Luxury Homes, we redefine luxury living with a commitment
-              to craftsmanship, innovation, and personalized service. Whether
-              it's the sale, rental, or leasing of residential, commercial, or
-              industrial properties, we offer bespoke solutions that meet the
-              highest standards of quality and elegance.
-            </p>
+            <div>
+              <h3>231 Luxury Homes</h3>
+              <p>
+                At 231 Luxury Homes, we redefine luxury living with a commitment
+                to craftsmanship, innovation, and personalized service. Whether
+                it's the sale, rental, or leasing of residential, commercial, or
+                industrial properties, we offer bespoke solutions that meet the
+                highest standards of quality and elegance.
+              </p>
+            </div>
+
+            <div className={styles.imagelist}>
+              <div className={styles.homesimage1 + " " + "bg_animation"}></div>
+              <div className={styles.homesimage2 + " " + "bg_animation"}></div>
+            </div>
           </div>
 
           <div className={styles.subsidiary}>
-            <Image
-              src="/records.jpg"
-              alt="231 Records"
-              width={500}
-              height={300}
-            />
-            <h3>231 Records</h3>
-            <p>
-              Founded out of a passion for music and the arts, 231 Records is a
-              leading record label and music production company. We provide
-              comprehensive services to artists and musicians, including
-              recording studios equipped with state-of-the-art technology,
-              artist development programs, marketing strategies, and global
-              distribution channels.
-            </p>
+            <div>
+              <h3>231 Records</h3>
+              <p>
+                Founded out of a passion for music and the arts, 231 Records is
+                a leading record label and music production company. We provide
+                comprehensive services to artists and musicians, including
+                recording studios equipped with state-of-the-art technology,
+                artist development programs, marketing strategies, and global
+                distribution channels.
+              </p>
+            </div>
+
+            <div className={styles.imagelist}>
+              <div className={styles.recordimage1 + " " + "bg_animation"}></div>
+              <div className={styles.recordimage2 + " " + "bg_animation"}></div>
+            </div>
           </div>
         </section>
 
         <section className={styles.section}>
           <h2>Our Vision</h2>
-          <Image src="/vision.jpg" alt="Vision" width={500} height={300} />
+
           <p>
             Driven by a vision of innovation and integrity, 231 Group aims to
             set new benchmarks in every sector we operate in. We strive to
@@ -117,12 +124,15 @@ const About = () => {
 
         <section className={styles.section}>
           <h2>Our Founder</h2>
-          <Image
-            src="/founder.jpg"
-            alt="Jerrydim Ikechukwu"
-            width={300}
-            height={300}
-          />
+          <div className="mb-5 flex justify-center">
+            <Image
+              src="/images/ceo.jpeg"
+              alt="Jerrydim Ikechukwu"
+              width={300}
+              height={300}
+            />
+          </div>
+
           <p>
             Jerrydim Ikechukwu, a visionary leader with a background in Computer
             Science and a Master's degree from a prestigious university in
@@ -133,8 +143,8 @@ const About = () => {
         </section>
 
         <section className={styles.section}>
-          <h2>Join Us</h2>
-          <Image src="/join_us.jpg" alt="Join Us" width={500} height={300} />
+          <h2 className="!text-left">Join Us</h2>
+
           <p>
             Whether you're looking for reliable energy solutions, luxury
             properties, or seeking to elevate your music career, 231 Group is
@@ -144,12 +154,6 @@ const About = () => {
         </section>
 
         <footer className={styles.footer}>
-          <Image
-            src="/signature.png"
-            alt="Signature"
-            width={150}
-            height={100}
-          />
           <p>Sincerely,</p>
           <p>Jerrydim Ikechukwu</p>
           <p>Founder and CEO, 231 Group</p>
