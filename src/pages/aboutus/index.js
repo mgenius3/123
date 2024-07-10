@@ -82,7 +82,7 @@ const About = () => {
                 <p>
                   At 231 Luxury Homes, we redefine luxury living with a
                   commitment to craftsmanship, innovation, and personalized
-                  service. Whether it's the sale, rental, or leasing of
+                  service. Whether it&apos;s the sale, rental, or leasing of
                   residential, commercial, or industrial properties, we offer
                   bespoke solutions that meet the highest standards of quality
                   and elegance.
@@ -147,10 +147,10 @@ const About = () => {
 
             <p>
               Jerrydim Ikechukwu, a visionary leader with a background in
-              Computer Science and a Master's degree from a prestigious
+              Computer Science and a Master&apos;s degree from a prestigious
               university in Cyprus, brings a wealth of knowledge and
               entrepreneurial spirit to 231 Group. His dedication to excellence
-              and commitment to innovation continue to drive our company's
+              and commitment to innovation continue to drive our company&apos;s
               growth and success.
             </p>
           </section>
@@ -159,7 +159,7 @@ const About = () => {
             <h2 className="!text-left">Join Us</h2>
 
             <p>
-              Whether you're looking for reliable energy solutions, luxury
+              Whether you&apos;re looking for reliable energy solutions, luxury
               properties, or seeking to elevate your music career, 231 Group is
               your trusted partner. Explore our subsidiaries and discover how we
               can collaborate to achieve your goals.

@@ -26,11 +26,11 @@ const CeoLetter = () => {
           </p>
           <p>
             Raised in the vibrant community of Enugu State, Nigeria, my journey
-            began with a Bachelor's degree in Computer Science from a
+            began with a Bachelor&apos;s degree in Computer Science from a
             prestigious institution in Nigeria. Seeking to expand my knowledge
-            and skills, I pursued and obtained a Master's degree from a renowned
-            university in Cyprus, specializing in fields that would later become
-            the cornerstone of my entrepreneurial pursuits.
+            and skills, I pursued and obtained a Master&apos;s degree from a
+            renowned university in Cyprus, specializing in fields that would
+            later become the cornerstone of my entrepreneurial pursuits.
           </p>
           <p>
             Fueled by a passion for business and innovation, I ventured into the

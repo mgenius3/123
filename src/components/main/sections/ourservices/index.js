@@ -42,8 +42,8 @@ export default function OurServices() {
                   Your destination for professional music production and record
                   label services. We offer top-notch recording studios, expert
                   artist development, and comprehensive marketing support to
-                  help you thrive in the music industry. Let's turn your musical
-                  dreams into reality with 231 Records.
+                  help you thrive in the music industry. Let&apos;s turn your
+                  musical dreams into reality with 231 Records.
                 </p>
               </div>
             </div>
@@ -59,10 +59,10 @@ export default function OurServices() {
                 <p>
                   231 Luxury Homes is our all-in-one real estate expert for
                   commercial, industrial, and residential properties. Whether
-                  you're seeking a luxurious home or a dynamic business space,
-                  we offer customized solutions with a focus on quality and
-                  personalized service. Explore the best in real estate with 231
-                  Luxury Homes.
+                  you&apos;re seeking a luxurious home or a dynamic business
+                  space, we offer customized solutions with a focus on quality
+                  and personalized service. Explore the best in real estate with
+                  231 Luxury Homes.
                 </p>
               </div>
             </div>
