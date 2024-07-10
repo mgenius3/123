@@ -1,6 +1,7 @@
 import AnimatedSection from "@/components/animatedSection";
 import style from "./style.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function AboutUs() {
   return (
@@ -30,10 +31,12 @@ export default function AboutUs() {
               felis risus.
             </p>
 
-            <span className={style.button}>
-              <p>Read more</p>
-              <b className={style.arrow}>&rarr;</b>
-            </span>
+            <Link href={"/aboutus"}>
+              <span className={style.button}>
+                <p>Read more</p>
+                <b className={style.arrow}>&rarr;</b>
+              </span>
+            </Link>
           </div>
         </div>
       </section>

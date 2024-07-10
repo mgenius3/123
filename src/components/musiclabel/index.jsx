@@ -8,6 +8,7 @@ import AboutUs from "../aboutus";
 import WhoWeAreMusicLabel from "./sections/whoweare";
 import Records from "./sections/records";
 import Link from "next/link";
+import Counter from "@/hook/counter";
 
 export default function MusicLabel() {
   return (
@@ -36,7 +37,10 @@ export default function MusicLabel() {
           <div className={style.det}>
             <Image src={"/svg/icons/music.svg"} width={20} height={20} />
             <div className={style.detext}>
-              <p>60 RECORDS</p>
+              <p>
+                <Counter targetNumber={60} />
+                RECORDS
+              </p>
               <p>Number of Records</p>
             </div>
           </div>

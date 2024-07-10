@@ -7,6 +7,7 @@ import AboutUs from "../aboutus";
 import Consultation from "../consultation";
 import WhoWeAreRealEstate from "./sections/whoweare";
 import Link from "next/link";
+import Counter from "@/hook/counter";
 
 export default function RealEstate() {
   return (
@@ -27,21 +28,29 @@ export default function RealEstate() {
           <div className={style.det}>
             <Image src={"/svg/icons/happy.svg"} width={20} height={20} />
             <div className={style.detext}>
-              <p>80 HAPPY CLIENTS</p>
+              <p>
+                <Counter targetNumber={80} />
+                HAPPY CLIENTS
+              </p>
               <p>Number of clients</p>
             </div>
           </div>
           <div className={style.det}>
             <Image src={"/svg/icons/music.svg"} width={20} height={20} />
             <div className={style.detext}>
-              <p>60 RECORDS</p>
+              <p>
+                <Counter targetNumber={60} />
+                Property Sales
+              </p>
               <p>Number of Records</p>
             </div>
           </div>
           <div className={style.det}>
             <Image src={"/svg/icons/house.svg"} width={20} height={20} />
             <div className={style.detext}>
-              <p>100+ LUXURY HOMES</p>
+              <p>
+                <Counter targetNumber={100} />+ LUXURY HOMES
+              </p>
               <p>Number of Estates</p>
             </div>
           </div>

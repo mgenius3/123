@@ -7,6 +7,7 @@ import Display from "./sections/display";
 import AboutUs from "../aboutus";
 import NewsThatHelps from "./sections/news";
 import Link from "next/link";
+import Counter from "@/hook/counter";
 
 export default function OilGas() {
   return (
@@ -30,7 +31,9 @@ export default function OilGas() {
               height={20}
             />
             <div className={style.detext}>
-              <p>2000+ LPG Clients</p>
+              <p>
+                <Counter targetNumber={2000} speedml={30} />+ LPG Clients
+              </p>
               <p>Number of clients</p>
             </div>
           </div>
@@ -41,14 +44,18 @@ export default function OilGas() {
               height={20}
             />
             <div className={style.detext}>
-              <p>3000+ LPG Deliveries</p>
+              <p>
+                <Counter targetNumber={3000} speedml={30} />+ LPG Deliveries
+              </p>
               <p>Number of Records</p>
             </div>
           </div>
           <div className={style.det}>
             <Image src={"/svg/icons/services/bon.svg"} width={20} height={20} />
             <div className={style.detext}>
-              <p>20+ LPG Estates</p>
+              <p>
+                <Counter targetNumber={20} />+ LPG Estates
+              </p>
               <p>Number of Estates</p>
             </div>
           </div>

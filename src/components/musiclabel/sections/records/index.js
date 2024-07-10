@@ -1,4 +1,6 @@
 import style from "./style.module.css";
+import Counter from "@/hook/counter";
+
 export default function Records() {
   return (
     <main className={style.main} id="records">
@@ -32,11 +34,16 @@ export default function Records() {
 
             <div className="flex justify-between">
               <span className={style.specialtext}>
-                <p>+ 24</p>
+                <p>
+                  +
+                  <Counter targetNumber={24} />
+                </p>
                 <p>Artistes</p>
               </span>
               <span className={style.specialtext}>
-                <p>38</p>
+                <p>
+                  <Counter targetNumber={38} />
+                </p>
                 <p>Albums</p>
               </span>
             </div>

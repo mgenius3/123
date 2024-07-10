@@ -4,6 +4,7 @@ import Footer from "@/components/footer";
 import SideNav from "@/components/sidenav";
 import { useState } from "react";
 import MusicLabel from "@/components/musiclabel";
+import ScrollToTop from "@/components/scrolltoTop";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,6 +18,7 @@ export default function Home() {
       />
       {showmobilesidenav && <SideNav setShowSideNav={setMobileSideNav} />}
       <MusicLabel />
+      <ScrollToTop />
       <Footer />
     </main>
   );

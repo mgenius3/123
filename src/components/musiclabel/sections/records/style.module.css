@@ -89,7 +89,7 @@
 
 .bigtext {
   font-family: Roboto;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 700;
   line-height: 61.44px;
   letter-spacing: -0.47999998927116394px;
@@ -107,7 +107,7 @@
 
 .specialtext > p:first-child {
   font-family: Roboto;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 76.8px;
   letter-spacing: -0.6000000238418579px;

@@ -5,6 +5,7 @@ import Footer from "@/components/footer";
 import SideNav from "@/components/sidenav";
 import Main from "@/components/main";
 import { useState } from "react";
+import ScrollToTop from "@/components/scrolltoTop";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function Home() {
         <SideNav home={true} setShowSideNav={setMobileSideNav} />
       )}
       <Main />
+      <ScrollToTop />
       <Footer />
     </main>
   );
