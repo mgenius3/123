@@ -22,6 +22,7 @@
   justify-content: flex-start;
   align-items: flex-end;
   align-content: flex-start;
+  height: 600px;
 }
 
 .maintext {
@@ -99,6 +100,9 @@
   }
   .mainbottom {
     padding: 20px;
+  }
+  .mainimage {
+    height: auto;
   }
 }
 
