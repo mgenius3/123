@@ -7,7 +7,7 @@
 }
 
 .container h3 {
-  background-color: rgba(245, 245, 245, 1);
+  /* background-color: rgba(245, 245, 245, 1); */
   padding: 0px 21px;
   text-align: center;
 }
@@ -39,6 +39,7 @@
 .serviceslist span:hover {
   background-color: black;
 }
+
 .serviceslist span:hover > p {
   color: white;
 }
@@ -46,13 +47,14 @@
 .serviceslist span:hover > img {
   background-color: white;
   border-radius: 20px;
-  padding: 10px;
+  padding: 2px;
 }
+
 .serviceslist span > p {
   font-family: Roboto;
-  font-size: 25.14px;
+  font-size: 20.14px; /* 25.14px - 5px */
   font-weight: 600;
-  line-height: 20.95px;
+  line-height: 15.95px; /* Adjusted proportionally */
   margin-left: 10px;
 }
 

@@ -4,16 +4,18 @@
 }
 
 .container {
-  padding: 30px 0px;
+  padding: 30px 50px;
   font-family: Roboto;
-  margin: 0px 50px;
-  background-image: url("../../../public/images/gasbg.png");
+  /* margin: 0px 50px; */
+  background-image: url("../../../public/images/gasyellowbghd.png");
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: bottom right;
   height: 650px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-blend-mode: lighten;
 }
 
 .maintop {
@@ -36,18 +38,18 @@
   width: 50%;
 }
 .maintext h1 {
-  font-size: 56px;
+  font-size: 51px; /* 56px - 5px */
   font-weight: 700;
-  /* text-shadow: 5px 5px 5px white; */
-  color: rgba(255, 255, 255, 0.6);
+  text-shadow: 2px 2px 2px silver;
+  color: white;
 }
 
 .maintext p {
-  font-size: 20;
+  font-size: 15px; /* 20px - 5px */
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.6);
+  color: white;
   margin: 10px 0px;
-  /* text-shadow: 5px 2px 5px white; */
+  text-shadow: 2px 2px 2px silver;
 }
 
 .button {
@@ -55,9 +57,9 @@
   background-color: rgba(0, 0, 0, 1);
   color: white !important;
   width: 166px;
-  height: 60px;
+  height: 50px;
   text-align: center;
-  font-size: 18px;
+  font-size: 13px; /* 18px - 5px */
   font-weight: 500;
   border-radius: 5px;
   display: flex;
@@ -93,14 +95,14 @@
 
 .detext > p:first-child {
   font-family: Poppins;
-  font-size: 13px;
+  font-size: 8px; /* 13px - 5px */
   font-weight: 500;
   color: rgba(34, 34, 34, 1);
 }
 
 .detext > p:last-child {
   color: rgba(102, 102, 102, 1);
-  font-size: 10px;
+  font-size: 8px; /* 10px - 5px */
   font-weight: 600;
 }
 
@@ -122,7 +124,7 @@
     /* padding: 20px; */
   }
   .maintext h1 {
-    font-size: 30px;
+    font-size: 25px; /* 30px - 5px */
     color: black;
   }
   .maintext p {
@@ -151,18 +153,15 @@
   }
 
   .mainbottom {
-    border-radius: 0px;
-    margin: 10px 0px;
-    width: 100%;
-    background-color: none !important;
-    flex-direction: column;
     height: max-content;
-    align-items: flex-start;
-    margin-bottom: 0px;
-    padding-left: 50px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 5px;
+    margin: 20px auto;
+    width: 90%;
   }
   .det {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
 
   .container {

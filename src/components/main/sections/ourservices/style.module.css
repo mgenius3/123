@@ -13,16 +13,17 @@
 }
 
 .ourservicestext > p {
-  background: rgba(178, 178, 178, 0.13);
+  /* background: rgba(178, 178, 178, 0.13); */
   padding: 10px;
   border-radius: 5px;
   font-family: Roboto;
-  font-size: 33.17px;
+  font-size: 28.17px; /* 33.17px - 5px */
   font-weight: 00;
-  line-height: 20.12px;
+  line-height: 15.12px; /* 20.12px - 5px */
   color: rgba(22, 28, 45, 1);
   text-align: center;
 }
+
 .allservices {
   display: flex;
 }
@@ -42,16 +43,17 @@
 .allservices > *:last-child {
   border-right: none !important;
 }
+
 .subtext {
   margin-left: 10px;
 }
 
 .subtext h6 {
   font-family: Roboto;
-  font-size: 24.26px;
+  font-size: 19.26px; /* 24.26px - 5px */
   font-weight: 700;
-  line-height: 36.98px;
-  letter-spacing: -0.57773756980896px;
+  line-height: 31.98px; /* 36.98px - 5px */
+  letter-spacing: -1.57773756980896px; /* adjusting letter-spacing */
   text-align: left;
   margin-bottom: 10px;
   color: rgba(22, 28, 45, 1);
@@ -59,13 +61,13 @@
 
 .subtext p {
   font-family: Roboto;
-  font-size: 19.64px;
+  font-size: 14.64px; /* 19.64px - 5px */
   font-weight: 400;
-  line-height: 33.51px;
-  letter-spacing: -0.23109501600265503px;
+  line-height: 28.51px; /* 33.51px - 5px */
   text-align: left;
   color: rgba(22, 28, 45, 1);
 }
+
 @media screen and (max-width: 780px) {
   .allservices {
     display: block;

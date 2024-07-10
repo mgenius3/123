@@ -6,30 +6,27 @@ export default function WhoWeAre() {
   return (
     <AnimatedSection>
       <section className={style.container}>
-        <div className={style.who_we_are}>
+        {/* <div className={style.who_we_are}>
           <p>WHO ARE WE</p>
-        </div>
+        </div> */}
         <div>
           <p className={style.sectionhead}>
-            We have over 6 years of experience in the real estate industry
+            Driving Excellence and Innovation: The Foundation of 231 Group
           </p>
         </div>
 
         <div className={style.summaryabout}>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Fames eros habitasse
-            ultricies et facilisi tincidunt. Tempus suscipit enim volutpat donec
-            adipiscing tincidunt magna. Id enim vitae lacus duis suspendisse.
-            Integer donec ac adipiscing eget morbi nec nisl. Porta pretium est
-            nunc amet. Laoreet sed tellus etiam ultricies. Nunc a leo in gravida
-            amet eu habitant. Vestibulum pharetra lacus dignissim quis molestie.
-            Blandit sagittis dolor cursus dignissim diam. Dui enim volutpat orci
-            et.
+            We are the cornerstone of 231 Group, a conglomerate that includes
+            renowned subsidiaries like 231 Oil & Gas, 231 Luxury Homes, and 231
+            Records. Our dedication to excellence and innovation drives us to
+            set new standards across diverse sectors, ensuring sustainable
+            growth and client satisfaction.
           </p>
         </div>
-        <div className={style.knowmore}>
+        {/* <div className={style.knowmore}>
           <p>Know More</p>
-        </div>
+        </div> */}
       </section>
     </AnimatedSection>
   );

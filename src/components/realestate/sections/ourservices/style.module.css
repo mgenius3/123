@@ -15,7 +15,7 @@
 
 .ourservicestext > p:first-child {
   font-family: Roboto;
-  font-size: 48.3px;
+  font-size: 30.3px;
   font-weight: 600;
   line-height: 56.6px;
   text-align: left;
@@ -65,9 +65,9 @@
 
 .subtext h6 {
   font-family: Roboto;
-  font-size: 29.4px;
+  font-size: 23.4px;
   font-weight: 600;
-  line-height: 34.45px;
+  line-height: 29.45px;
   text-align: left;
   color: rgba(36, 37, 39, 1);
   margin: 20px 0px;
@@ -75,9 +75,9 @@
 
 .subtext p {
   font-family: Roboto;
-  font-size: 19.64px;
+  font-size: 16.64px;
   font-weight: 400;
-  line-height: 33.51px;
+  line-height: 25.51px;
   letter-spacing: -0.23109501600265503px;
   text-align: left;
   color: rgba(22, 28, 45, 1);

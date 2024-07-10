@@ -5,17 +5,18 @@ import Image from "next/image";
 export default function WhoWeAreRealEstate() {
   return (
     <AnimatedSection>
-      <section className={style.main}>
+      <section className={style.main} id="discover">
         <div className={style.container}>
           <div className={style.textdisplay}>
-            <p className={style.headtext}>WHO ARE WE</p>
+            {/* <p className={style.headtext}>WHO ARE WE</p> */}
             <p className={style.subheadtext}>
               Assisting individuals in locating the appropriate real estate
             </p>
             <p className={style.smalltext}>
-              Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec
-              dignissim purus. Nulla convallis ipsum molestie nibh malesuada, ac
-              malesuada leo volutpat.
+              Our expertise ensures seamless transactions and personalized
+              guidance throughout your real estate journey. We prioritize your
+              satisfaction, offering comprehensive support to ensure you find
+              the ideal property that meets your requirements.
             </p>
 
             <div className={style.whatwe}>
@@ -26,9 +27,12 @@ export default function WhoWeAreRealEstate() {
                 alt="icons"
               />
               <div>
-                <p>Find And buy Luxury Home</p>
+                <p>Explore and acquire your dream luxury home effortlessly.</p>
                 <p>
-                  Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec
+                  Our expertise ensures seamless transactions and personalized
+                  guidance throughout your real estate journey. We prioritize
+                  your satisfaction, offering comprehensive support to ensure
+                  you find the ideal property that meets your requirements.
                 </p>
               </div>
             </div>
@@ -40,9 +44,11 @@ export default function WhoWeAreRealEstate() {
                 alt="icons"
               />
               <div>
-                <p>Find And buy Luxury Home</p>
+                <p>Rent and Lease Your Exclusive Luxury Residence</p>
                 <p>
-                  Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec
+                  At 231 Luxury Homes, we make your dream luxury home a reality
+                  with personalized service and seamless sales, rental and
+                  leasing options.
                 </p>
               </div>
             </div>

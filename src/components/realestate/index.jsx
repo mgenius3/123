@@ -6,6 +6,7 @@ import OurServices from "./sections/ourservices";
 import AboutUs from "../aboutus";
 import Consultation from "../consultation";
 import WhoWeAreRealEstate from "./sections/whoweare";
+import Link from "next/link";
 
 export default function RealEstate() {
   return (
@@ -16,7 +17,9 @@ export default function RealEstate() {
             <h1>Explore Our Collection Luxury Homes</h1>
             <p>Get ready to embark on unforgetable to breaking destinations</p>
 
-            <p className={style.button}>Discover Now</p>
+            <Link href={"#discover"}>
+              <p className={style.button}>Discover Now</p>
+            </Link>
           </div>
           {/* <img src="/images/realestate.png" className={style.mainimage} /> */}
         </div>
@@ -42,9 +45,9 @@ export default function RealEstate() {
               <p>Number of Estates</p>
             </div>
           </div>
-          <div>
+          {/* <div>
             <p className={style.button}> Explore Now</p>
-          </div>
+          </div> */}
         </div>
       </div>
       <WhoWeAre />

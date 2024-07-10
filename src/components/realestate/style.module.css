@@ -1,12 +1,12 @@
 .main {
   margin-top: 100px;
-  padding: 5px 0px;
+  padding: 5px 0;
 }
 
 .container {
-  padding: 30px 0px;
+  padding: 30px 50px;
   font-family: Roboto;
-  margin: 0px 50px;
+  margin: 0 auto;
   background-image: url("../../../public/images/realestate.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -16,45 +16,30 @@
   justify-content: space-between;
 }
 
-.maintop {
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
-}
-
-.mainimage {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-end;
-  align-content: flex-start;
-}
-
 .maintext {
-  display: block;
-  width: 50%;
+  width: 100%;
 }
+
 .maintext h1 {
-  font-size: 56px;
+  font-size: 51px; /* Adjusted font size */
   font-weight: 700;
 }
 
 .maintext p {
-  font-size: 20;
+  font-size: 18px; /* Adjusted font size */
   font-weight: 500;
   color: rgba(34, 34, 34, 0.8);
-  margin: 10px 0px;
+  margin: 10px 0;
 }
 
 .button {
-  box-shadow: 0px 8px 16px 0px rgba(250, 116, 54, 0.16);
+  box-shadow: 0 8px 16px 0 rgba(250, 116, 54, 0.16);
   background-color: rgba(0, 0, 0, 1);
   color: white !important;
   width: 166px;
-  height: 60px;
+  height: 50px;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px; /* Adjusted font size */
   font-weight: 500;
   border-radius: 5px;
   display: flex;
@@ -64,8 +49,8 @@
 }
 
 .mainbottom {
-  box-shadow: 0px 2px 80px 2px rgba(0, 0, 0, 0.06),
-    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 80px 2px rgba(0, 0, 0, 0.06),
+    0 4px 4px 0 rgba(0, 0, 0, 0.25);
   background: linear-gradient(
     90.54deg,
     rgba(255, 255, 255, 0.6) 0.12%,
@@ -77,8 +62,9 @@
   align-items: center;
   height: 124px;
   width: 85%;
-  margin: 0px auto;
+  margin: 0 auto;
 }
+
 .det {
   display: flex;
   align-items: center;
@@ -90,14 +76,14 @@
 
 .detext > p:first-child {
   font-family: Poppins;
-  font-size: 13px;
+  font-size: 8px; /* Adjusted font size */
   font-weight: 500;
   color: rgba(34, 34, 34, 1);
 }
 
 .detext > p:last-child {
   color: rgba(102, 102, 102, 1);
-  font-size: 10px;
+  font-size: 7px;
   font-weight: 600;
 }
 
@@ -115,16 +101,14 @@
     background-image: url("../../../public/images/realestate.png");
     background-repeat: no-repeat;
     background-position: bottom center;
+    padding: 30px 20px;
   }
 
   .maintop {
-    flex-wrap: wrap;
-    margin: 0px 50px;
+    margin: 0;
   }
 
   .maintext {
-    display: flex;
-    flex-direction: column;
     width: 100%;
   }
 
@@ -133,22 +117,20 @@
   }
 
   .mainbottom {
-    border-radius: 0px;
-    margin: 10px 0px;
-    width: 100%;
-    background-color: none !important;
-    flex-direction: column;
-    height: max-content;
-    align-items: flex-start;
-    margin-bottom: 0px;
-    padding-left: 50px;
+    height: auto;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 5px;
+    margin: 20px auto;
+    width: 90%;
   }
+
   .det {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
 
   .container {
-    padding-bottom: 0px;
-    margin: 0px;
+    padding-bottom: 0;
+    margin: 0;
   }
 }

@@ -1,0 +1,26 @@
+.container {
+  background-color: white;
+  /* padding: 30px 50px; */
+}
+
+.header {
+  text-align: center;
+  /* margin: 30px; */
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.subsidiary {
+  margin-top: 20px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+}

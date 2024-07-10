@@ -1,7 +1,7 @@
 import style from "./style.module.css";
 export default function Records() {
   return (
-    <main className={style.main}>
+    <main className={style.main} id="records">
       <div className={style.container}>
         <div className="mb-10">
           <h2>231 Records</h2>

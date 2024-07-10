@@ -7,6 +7,7 @@ import OurServices from "./sections/ourservices";
 import AboutUs from "../aboutus";
 // import AboutUs from "./sections/aboutus";
 import Consultation from "../consultation";
+import Link from "next/link";
 
 export default function Main() {
   return (
@@ -14,10 +15,12 @@ export default function Main() {
       <div className={style.container}>
         <div className={style.maintop}>
           <div className={style.maintext}>
-            <h1>Explore Our Collection Of Subsidiary Groups</h1>
-            <p>Get ready to embark on unforgetable to breaking destinations</p>
+            <h1>Discover Our Diverse Subsidiary Portfolio</h1>
+            <p>Explore Our Expansive Subsidiary destination</p>
 
-            <p className={style.button}>Discover Now</p>
+            <Link href="#subsidiaries">
+              <p className={style.button}>Discover Now</p>
+            </Link>
           </div>
           {/* <div className={style.mainimage}> */}
           <img src="/images/allin1.png" className={style.mainimage} />
@@ -45,9 +48,9 @@ export default function Main() {
               <p>Number of Estates</p>
             </div>
           </div>
-          <div>
+          {/* <div>
             <p className={style.button}> Explore Now</p>
-          </div>
+          </div> */}
         </div>
       </div>
       <WhoWeAre />

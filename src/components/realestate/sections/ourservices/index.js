@@ -8,7 +8,7 @@ export default function OurServices() {
       <section className={style.main} id="services">
         <div className={style.container}>
           <div className={style.ourservicestext}>
-            <p>Our Excellent Services</p>
+            <p>231 Luxury Home Real Estate Services</p>
 
             <p>
               Check out our best service you can possibly orders in building
@@ -28,8 +28,9 @@ export default function OurServices() {
               <div className={style.subtext}>
                 <h6>Industrial</h6>
                 <p>
-                  With lots of unique services, you can easily reach us without
-                  worry. Start a project with us
+                  We offers Industrial Real Estate specialized services designed
+                  to support and enhance your industrial projects and real
+                  estate needs efficiently.
                 </p>
               </div>
             </div>
@@ -44,8 +45,9 @@ export default function OurServices() {
               <div className={style.subtext}>
                 <h6>Commercial</h6>
                 <p>
-                  With lots of unique services, you can easily reach us without
-                  worry. Start a project with us
+                  We offer Commercial Real Estate which provides customized
+                  services designed to cater to the specific requirements of
+                  your commercial property ventures.
                 </p>
               </div>
             </div>
@@ -60,8 +62,9 @@ export default function OurServices() {
               <div className={style.subtext}>
                 <h6>Residential</h6>
                 <p>
-                  With lots of unique services, you can easily reach us without
-                  worry. Start a project with us
+                  We offer Residential Real Estate that delivers customized
+                  services aimed at enhancing and fulfilling your needs for
+                  residential properties effectively.
                 </p>
               </div>
             </div>

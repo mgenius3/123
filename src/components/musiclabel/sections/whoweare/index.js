@@ -8,7 +8,7 @@ export default function WhoWeAreMusicLabel() {
       <section className={style.main}>
         <div className={style.container}>
           <div className={style.textdisplay}>
-            <p className={style.headtext}>WHO ARE WE</p>
+            {/* <p className={style.headtext}>WHO ARE WE</p> */}
             <p className={style.subheadtext}>
               Lorem ipsum dolor sit amet consectetuordulv ul.Vestibulum
             </p>

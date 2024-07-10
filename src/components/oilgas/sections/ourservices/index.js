@@ -13,74 +13,73 @@ export default function OurServices() {
           <div className={style.serviceslist}>
             <span>
               <Image
-                width={42.37}
-                height={48.5}
-                src="/svg/icons/services/fuel.svg"
-              />
-              <p>Our Fuels</p>
-            </span>
-
-            <span>
-              <Image
-                width={42.37}
-                height={48.5}
-                src="/svg/icons/services/lub.svg"
-              />
-              <p>Car Lubricants</p>
-            </span>
-
-            <span>
-              <Image
-                width={42.37}
-                height={48.5}
-                src="/svg/icons/services/indlub.svg"
-              />
-              <p>Industrial Lubricants</p>
-            </span>
-
-            <span>
-              <Image
-                width={42.37}
-                height={48.5}
-                src="/svg/icons/services/fluid.svg"
-              />
-              <p>Special Fluids/Solvents</p>
-            </span>
-
-            <span>
-              <Image
-                width={42.37}
+                width={22.37}
                 height={48.5}
                 src="/svg/icons/services/aviation.svg"
               />
-              <p>Aviation</p>
+              <p>LPG Supply</p>
+            </span>
+            <span>
+              <Image
+                width={22.37}
+                height={48.5}
+                src="/svg/icons/services/fuel.svg"
+              />
+              <p>Auto Gas Services</p>
             </span>
 
             <span>
               <Image
-                width={42.37}
+                width={22.37}
+                height={48.5}
+                src="/svg/icons/services/lub.svg"
+              />
+              <p>Refilling Services</p>
+            </span>
+
+            <span>
+              <Image
+                width={22.37}
+                height={48.5}
+                src="/svg/icons/services/indlub.svg"
+              />
+              <p>Installation Services</p>
+            </span>
+
+            <span>
+              <Image
+                width={22.37}
+                height={48.5}
+                src="/svg/icons/services/fluid.svg"
+              />
+              <p>Bulk Delivery</p>
+            </span>
+
+            <span>
+              <Image
+                width={22.37}
                 height={48.5}
                 src="/svg/icons/services/solar.svg"
               />
-              <p>Solar Solutions</p>
+              <p>Maintenace Services</p>
             </span>
 
             <span>
               <Image
-                width={42.37}
+                width={22.37}
                 height={48.5}
                 src="/svg/icons/services/card.svg"
               />
-              <p>Company Cards</p>
+              <p>Partnership Programs</p>
             </span>
 
             <span>
               <Image
-                width={42.37}
+                width={22.37}
                 height={48.5}
                 src="/svg/icons/services/bon.svg"
               />
-              <p>Bonjour</p>
+              <p>Consultation and Advice</p>
             </span>
           </div>
         </div>

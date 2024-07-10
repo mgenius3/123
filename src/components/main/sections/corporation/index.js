@@ -7,10 +7,10 @@ export default function Corporation() {
     <AnimatedSection>
       <section className={style.main} id="subsidiaries">
         <div className={style.container}>
-          <h3>Our Subsidiary Corporation</h3>
+          <h3>Our Subsidiaries</h3>
           <p className="subtext">
-            Lorem ipsum dolor sit amet consectetur. Magna adipiscing amet
-            vulputate libero
+            Our subsidiary company specializes in providing exceptional services
+            tailored to meet diverse client needs.
           </p>
 
           <div className={style.allcorporation}>
@@ -21,8 +21,8 @@ export default function Corporation() {
               </span>
 
               <p>
-                Lorem ipsum dolor sit amet consectet ur. Sapien at semper
-                adipiscing nec n on nibh lorem.
+                Our expertise lies in the oil and gas sector, specifically in
+                the production and distribution of cooking LPG.
               </p>
 
               <Link href="/oilgas">
@@ -42,8 +42,9 @@ export default function Corporation() {
               </span>
 
               <p>
-                Lorem ipsum dolor sit amet consectet ur. Sapien at semper
-                adipiscing nec n on nibh lorem.
+                We specialize in the sales, rentals, and leasing of luxury
+                homes, as well as residential, commercial, and industrial
+                properties.
               </p>
 
               <Link href="/realestate">
@@ -64,8 +65,9 @@ export default function Corporation() {
               </span>
 
               <p>
-                Lorem ipsum dolor sit amet consectet ur. Sapien at semper
-                adipiscing nec n on nibh lorem.
+                We specialize in record label services and music production,
+                offering a comprehensive range of solutions tailored to artists
+                and musicians.
               </p>
 
               <Link href="/musiclabel">

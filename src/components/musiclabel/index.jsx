@@ -7,6 +7,7 @@ import Consultation from "../consultation";
 import AboutUs from "../aboutus";
 import WhoWeAreMusicLabel from "./sections/whoweare";
 import Records from "./sections/records";
+import Link from "next/link";
 
 export default function MusicLabel() {
   return (
@@ -14,10 +15,12 @@ export default function MusicLabel() {
       <div className={style.container}>
         <div className={style.maintop}>
           <div className={style.maintext}>
-            <h1>Explore Our Collection Luxury Homes</h1>
+            <h1>Discover Our Collection of Luxury Homes</h1>
             <p>Get ready to embark on unforgetable to breaking destinations</p>
 
-            <p className={style.button}>Discover Now</p>
+            <Link href={"#records"}>
+              <p className={style.button}>Discover Now</p>
+            </Link>
           </div>
 
           {/* <img src="/images/recordlabel.png" /> */}
@@ -44,9 +47,9 @@ export default function MusicLabel() {
               <p>Number of Estates</p>
             </div>
           </div>
-          <div>
+          {/* <div>
             <p className={style.button}> Explore Now</p>
-          </div>
+          </div> */}
         </div>
       </div>
       <WhoWeAre />

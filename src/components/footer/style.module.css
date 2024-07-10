@@ -19,7 +19,7 @@
 
 .details > p {
   font-weight: 400;
-  font-size: 22.28px;
+  font-size: 17.28px; /* 22.28px - 5px */
   margin: 0px 5px;
 }
 .detailshead {
@@ -35,21 +35,21 @@
 .button {
   background-color: #f9c476;
   color: black;
-  padding: 17.83px 22.28px;
+  padding: 12.83px 17.28px; /* Adjusted padding to maintain proportion */
   border-radius: 4.46px;
   font-weight: 600;
-  font-size: 20.6px;
+  font-size: 15.6px; /* 20.6px - 5px */
   margin: 0px 5px;
 }
 
 .headtext {
   font-weight: 500;
-  font-size: 22.28px;
+  font-size: 15.28px; /* 22.28px - 5px */
 }
 
 .logotext {
   font-weight: 700;
-  font-size: 33.43px;
+  font-size: 28.43px; /* 33.43px - 5px */
   margin: 0px 5px;
   font-style: italic;
 }
@@ -78,7 +78,7 @@
   }
 
   .logotext {
-    font-size: 15.43px;
+    font-size: 10.43px; /* 15.43px - 5px */
   }
   .details {
     flex-direction: column;
@@ -98,12 +98,12 @@
   }
 
   .button {
-    padding: 10.83px 10.28px;
+    padding: 5.83px 5.28px; /* Adjusted padding to maintain proportion */
   }
 
   .details > p {
     font-weight: 400;
-    font-size: 18.28px;
+    font-size: 13.28px; /* 18.28px - 5px */
     margin: 0px 5px;
   }
 }

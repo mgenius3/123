@@ -51,20 +51,20 @@ export default function Footer() {
             <div className="flex">
               <Image
                 src={"/svg/iconfacebook.svg"}
-                width={44.57}
-                height={44.57}
+                width={24.57}
+                height={24.57}
                 className="mr-5"
               />{" "}
               <Image
                 src={"/svg/iconlinkedin.svg"}
-                width={44.57}
-                height={44.57}
+                width={24.57}
+                height={24.57}
                 className="mr-5"
               />{" "}
               <Image
                 src={"/svg/icontwitter.svg"}
-                width={44.57}
-                height={44.57}
+                width={24.57}
+                height={24.57}
                 className="mr-5"
               />
             </div>
