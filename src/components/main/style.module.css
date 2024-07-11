@@ -107,9 +107,18 @@
 }
 
 @media screen and (max-width: 768px) {
+  .container {
+    padding-bottom: 0px;
+    margin: 0px;
+    background-image: url("../../../public//images/allin1.png");
+    background-position: top right;
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
   .maintop {
     flex-wrap: wrap;
-    margin: 0px 50px;
+    margin: 0px 20px;
+    width: 50%;
   }
 
   .maintext {
@@ -133,11 +142,24 @@
     /* margin-bottom: 20px; */
   }
 
-  .container {
-    padding-bottom: 0px;
-    margin: 0px;
+  .container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: -1; /* ensure it is behind the content */
   }
 
+  .maintext h1 {
+    font-size: 22px;
+  }
+
+  .maintext p {
+    font-size: 13px;
+  }
   .detext > p:first-child {
     font-size: 10px; /* 13px - 5px */
   }
