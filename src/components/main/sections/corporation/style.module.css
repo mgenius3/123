@@ -67,6 +67,7 @@
   margin-bottom: 10px;
   background-color: black;
   box-shadow: 0px 3.97px 3.97px 0px rgba(0, 0, 0, 0.25);
+  padding: 16.1px 20.13px;
 }
 
 .button > p {
@@ -95,5 +96,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  /* Add responsive styles if needed */
+  .button {
+    padding: 11.1px 15.13px;
+  }
 }

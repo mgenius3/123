@@ -45,13 +45,12 @@ const About = () => {
           </header>
 
           <section className={styles.section}>
-            <h2>Welcome to 231 Group</h2>
+            <h2 className={styles.headtext}>Welcome to 231 Group</h2>
             <p>
-              <b className={styles.specialtext}>231 </b> Group is a diversified
-              conglomerate dedicated to excellence across multiple sectors.
-              Founded by Jerrydim Ikechukwu, our company has grown from its
-              roots in Enugu State, Nigeria, to encompass a range of thriving
-              subsidiaries.
+              231 Group is a diversified conglomerate dedicated to excellence
+              across multiple sectors. Founded by Jerrydim Ikechukwu, our
+              company has grown from its roots in Enugu State, Nigeria, to
+              encompass a range of thriving subsidiaries.
             </p>
           </section>
 
@@ -137,12 +136,12 @@ const About = () => {
           <section className={styles.section}>
             <h2>Our Founder</h2>
             <div className="mb-5 flex justify-center">
-              <Image
+              {/* <Image
                 src="/images/ceo.jpeg"
                 alt="Jerrydim Ikechukwu"
                 width={300}
                 height={300}
-              />
+              /> */}
             </div>
 
             <p>

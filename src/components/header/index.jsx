@@ -1,10 +1,29 @@
 import Image from "next/image";
 import style from "./style.module.css";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 export default function Header({ showSideNav, setShowSideNav, home = false }) {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <header className={style.container}>
+    <header className={`${style.container} ${scrolled ? style.scrolled : ""}`}>
       <nav className={style.desktop}>
         <div className={style.logo}>
           <Image src={"/svg/logo.svg"} width={208} height={8.95} />

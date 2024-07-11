@@ -1,10 +1,24 @@
 import Image from "next/image";
 import styles from "./style.module.css";
 import AnimatedSection from "@/components/animatedSection";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
+import SideNav from "@/components/sidenav";
+import ScrollToTop from "@/components/scrolltoTop";
 
 const CeoLetter = () => {
+  const [showmobilesidenav, setMobileSideNav] = useState(false);
+
   return (
     <AnimatedSection>
+      <Header
+        setShowSideNav={setMobileSideNav}
+        showSideNav={showmobilesidenav}
+        home={true}
+      />
+      {showmobilesidenav && (
+        <SideNav home={true} setShowSideNav={setMobileSideNav} />
+      )}
       <div className={styles.container}>
         <div className={styles.imageContainer}>
           <Image
@@ -62,6 +76,8 @@ const CeoLetter = () => {
           <p>231 Group of Companies</p>
         </div>
       </div>
+      <ScrollToTop />
+      <Footer />
     </AnimatedSection>
   );
 };

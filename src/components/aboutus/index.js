@@ -23,12 +23,10 @@ export default function AboutUs() {
             <h3>About Us</h3>
             <p className={style.subtext}>Discover the varous Subsidiaries</p>
             <p className={style.aboutustext}>
-              Lorem ipsum dolor sit amet consectetur. In at amet semper velit
-              elit nisi faucibus arcu. Bibendum nulla porttitor faucibus
-              bibendum erat a vulputate sed. Quisque quis viverra turpis at erat
-              vel ut metus congue. Sed senectus ullamcorper imperdiet sit
-              fermentum. Fermentum faucibus proin hac sed condimentum euismod
-              felis risus.
+              231 Group is a diversified conglomerate dedicated to excellence
+              across multiple sectors. Founded by Jerrydim Ikechukwu, our
+              company has grown from its roots in Enugu State, Nigeria, to
+              encompass a range of thriving subsidiaries.
             </p>
 
             <Link href={"/aboutus"}>
