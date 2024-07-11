@@ -19,6 +19,7 @@
 body {
   background-color: #f9c476;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 @layer utilities {
