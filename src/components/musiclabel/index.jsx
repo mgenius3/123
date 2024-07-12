@@ -59,7 +59,7 @@ export default function MusicLabel() {
       <WhoWeAre />
       <OurServices />
       <WhoWeAreMusicLabel />
-      <Records />
+      {/* <Records /> */}
       <AboutUs />
       <Consultation />
       <Whatcanwedoforyou />
