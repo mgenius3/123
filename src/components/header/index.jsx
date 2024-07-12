@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 
 export default function Header({ showSideNav, setShowSideNav, home = false }) {
   const [scrolled, setScrolled] = useState(false);
+  const [showDropdown, setShowDropdown] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -22,21 +23,42 @@ export default function Header({ showSideNav, setShowSideNav, home = false }) {
     };
   }, []);
 
+  const toggleDropdown = () => {
+    setShowDropdown((prev) => !prev);
+  };
+
   return (
     <header className={`${style.container} ${scrolled ? style.scrolled : ""}`}>
       <nav className={style.desktop}>
         <div className={style.logo}>
-          <Image src={"/svg/logo.svg"} width={208} height={8.95} />
+          <Link href="/">
+            <Image src={"/svg/logo.svg"} width={200} height={8.95} />
+          </Link>
         </div>
 
         {home ? (
           <div className={style.link}>
-            <Link href="#about">
+            <Link href="/aboutus">
               <p>About Us</p>
             </Link>
-            <Link href="/#subsidiaries">
-              <p>Subsidiaries</p>
-            </Link>
+            <div className={style.dropdown}>
+              <p onClick={toggleDropdown} className={style.dropdownToggle}>
+                Subsidiaries
+              </p>
+              {showDropdown && (
+                <div className={style.dropdownContent}>
+                  <Link href="/oilgas">
+                    <p>Oil & Gas</p>
+                  </Link>
+                  <Link href="/realestate">
+                    <p>Real Estate</p>
+                  </Link>
+                  <Link href="/musiclabel">
+                    <p>Record Label</p>
+                  </Link>
+                </div>
+              )}
+            </div>
             <Link href="/#services">
               <p>Services</p>
             </Link>
@@ -55,9 +77,27 @@ export default function Header({ showSideNav, setShowSideNav, home = false }) {
             <Link href="/">
               <p>Home</p>
             </Link>
-            <Link href="#about">
+            <Link href="/aboutus">
               <p>About us</p>
             </Link>
+            <div className={style.dropdown}>
+              <p onClick={toggleDropdown} className={style.dropdownToggle}>
+                Subsidiaries
+              </p>
+              {showDropdown && (
+                <div className={style.dropdownContent}>
+                  <Link href="/oilgas">
+                    <p>Oil & Gas</p>
+                  </Link>
+                  <Link href="/realestate">
+                    <p>Real Estate</p>
+                  </Link>
+                  <Link href="/musiclabel">
+                    <p>Record Label</p>
+                  </Link>
+                </div>
+              )}
+            </div>
             <Link href="#services">
               <p>Services</p>
             </Link>
