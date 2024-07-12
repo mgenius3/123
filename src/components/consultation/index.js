@@ -11,7 +11,7 @@ export default function Consultation() {
             <h3>Free Consultation with exceptional quality</h3>
             <p>
               Just one call away{" "}
-              <a href="tel: +234 80102 2703"> +234 80102 2703</a>
+              <a href="tel: +234 80102 2703">+2349159062400</a>
             </p>
           </div>
           <div className={style.button}>
