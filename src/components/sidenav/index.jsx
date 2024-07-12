@@ -61,11 +61,13 @@ export default function SideNav({ home = false, setShowSideNav }) {
           <Link onClick={() => setShowSideNav(false)} href="/">
             <p>Home</p>
           </Link>
-          <Link onClick={() => setShowSideNav(false)} href="#about">
+          <Link onClick={() => setShowSideNav(false)} href="/aboutus">
             <p>About us</p>
           </Link>
           <div className={style.dropdown}>
-            <p onClick={toggleDropdown}>Subsidiaries</p>
+            <p onClick={toggleDropdown} className={style.dropdownToggle}>
+              Subsidiaries
+            </p>
             {showDropdown && (
               <div className={style.dropdownContent}>
                 <Link onClick={() => setShowSideNav(false)} href="/oilgas">
