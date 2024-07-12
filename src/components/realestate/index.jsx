@@ -15,7 +15,7 @@ export default function RealEstate() {
       <div className={style.container}>
         <div className={style.maintop}>
           <div className={style.maintext}>
-            <h1>Explore Our Collection Luxury Homes</h1>
+            <h1>Discover Our Collection of Luxury Homes</h1>
             <p>Get ready to embark on unforgetable to breaking destinations</p>
 
             <Link href={"#discover"}>

@@ -14,11 +14,11 @@ export default function Consultation() {
               <a href="tel: +234 80102 2703">+2349159062400</a>
             </p>
           </div>
-          <div className={style.button}>
+          {/* <div className={style.button}>
             <Link href={"tel:2349159062400"}>
               <p>+2349159062400</p>
             </Link>
-          </div>
+          </div> */}
         </div>
       </section>
     </AnimatedSection>

@@ -11,9 +11,11 @@ export default function OurServices() {
             <p>231 Luxury Home Real Estate Services</p>
 
             <p>
-              Check out our best service you can possibly orders in building
-              your company and don&apos;t forget to ask via our email or our
-              customer service if you are interested in using our services
+              Discover our top-tier services tailored to enhance your real
+              estate endeavors. For further details or to express interest in
+              our services, please contact us via email or through our dedicated
+              customer service. We are committed to supporting the growth of
+              your company.
             </p>
           </div>
           <div className={style.allservices}>

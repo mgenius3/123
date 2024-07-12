@@ -100,7 +100,8 @@
   .container {
     background-image: url("../../../public/images/realestate.png");
     background-repeat: no-repeat;
-    background-position: bottom center;
+    background-position: right center;
+    /* background-size: 80%; */
     padding: 30px 20px;
   }
 

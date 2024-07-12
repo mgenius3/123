@@ -165,11 +165,11 @@ const About = () => {
             </p>
           </section>
 
-          <footer className={styles.footer}>
+          {/* <footer className={styles.footer}>
             <p>Sincerely,</p>
             <p>Jerrydim Ikechukwu</p>
             <p>Founder and CEO, 231 Group</p>
-          </footer>
+          </footer> */}
         </div>
         <ScrollToTop />
         <Footer />
