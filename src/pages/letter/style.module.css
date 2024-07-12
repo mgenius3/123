@@ -14,6 +14,7 @@
   justify-content: center;
   align-items: center;
   padding: 20px;
+  margin-top: 30px;
 }
 
 .image {
@@ -47,9 +48,18 @@
   margin-bottom: 0;
 }
 
+.foot {
+  margin-top: 10px;
+}
+.foot p {
+  margin: 0px !important;
+}
 @media screen and (max-width: 768px) {
   .container {
     flex-direction: column;
     padding: 20px;
+  }
+  .container h1 {
+    font-size: 1.5rem;
   }
 }

@@ -108,23 +108,37 @@
 
 @media screen and (max-width: 1024px) {
   .container {
-    height: auto;
-    background-image: none;
+    height: 500px;
+    /* background-image: none; */
     padding: 0px;
     padding-bottom: 30px;
+    background-size: 50%;
+    background-position: top right;
+  }
+
+  .container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    z-index: -1; /* ensure it is behind the content */
   }
 
   .maintop {
-    flex-wrap: wrap;
-    margin: 0px 50px;
+    display: flex;
+    align-items: center;
+    margin: 0px 20px;
     margin-bottom: 30px;
   }
   .maintext {
-    width: 100% !important;
+    width: 50% !important;
     /* padding: 20px; */
   }
   .maintext h1 {
-    font-size: 25px; /* 30px - 5px */
+    font-size: 30px; /* 30px - 5px */
   }
   .mainbottom {
     padding: 20px;
@@ -133,15 +147,17 @@
 
 @media screen and (max-width: 768px) {
   .container {
-    background-image: none;
-    background-repeat: no-repeat;
-    /* background-position: bottom center; */
+    height: 400px;
   }
 
   .maintext {
     display: flex;
     flex-direction: column;
     width: 100%;
+  }
+
+  .maintext h1 {
+    font-size: 25px; /* 30px - 5px */
   }
 
   .mainimage {

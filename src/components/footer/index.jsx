@@ -1,5 +1,6 @@
 import Image from "next/image";
 import style from "./style.module.css";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -9,11 +10,31 @@ export default function Footer() {
           <div className="mb-10">
             <div className={style.details}>
               <p className={style.detailshead}>ADDRESS:</p>
-              <p>No26, agbaja street, banana Island, Lagos Nigeria</p>
+
+              <div className={style.subdetailshead}>
+                <p>Enugu State Office</p>
+
+                <p>
+                  No, 36 Ubaka Street, Enugu State
+                  <br />
+                  Plot 1315, 1317, Villa Estate Layout, Phase II, Enugu State{" "}
+                </p>
+              </div>
+
+              <div className={style.subdetailshead}>
+                <p>Corporate Abuja Office</p>
+                <p>
+                  {" "}
+                  50 Ebitu Ukiwe St, Jabi, Abuja 900108, Federal Capital
+                  Territory
+                </p>
+              </div>
             </div>
             <div className={style.details}>
               <p className={style.detailshead}>PHONE:</p>
-              <p>+234 804 1102 2703</p>
+              <Link href={"tel:2349159062400"}>
+                <p>+2349159062400</p>
+              </Link>
             </div>{" "}
             <div className={style.details}>
               <p className={style.detailshead}>EMAIL:</p>
@@ -41,7 +62,9 @@ export default function Footer() {
                 placeholder="Your email here"
                 className={style.newsletterinput}
               />
-              <p className={style.button}>Subscribe</p>
+              <span className={style.button}>
+                <p>Subscribe</p>
+              </span>
             </div>
           </div>
 
@@ -49,7 +72,7 @@ export default function Footer() {
             <p className={style.headtext}>SOCIAL:</p>
 
             <div className="flex">
-              <Image
+              {/* <Image
                 src={"/svg/iconfacebook.svg"}
                 width={24.57}
                 height={24.57}
@@ -60,13 +83,15 @@ export default function Footer() {
                 width={24.57}
                 height={24.57}
                 className="mr-5"
-              />{" "}
-              <Image
-                src={"/svg/icontwitter.svg"}
-                width={24.57}
-                height={24.57}
-                className="mr-5"
-              />
+              />{" "} */}
+              <a href="https://instagram.com/231group" target="_blank">
+                <Image
+                  src={"/svg/instagramicon.svg"}
+                  width={24.57}
+                  height={24.57}
+                  className="mr-5"
+                />
+              </a>
             </div>
           </div>
         </section>

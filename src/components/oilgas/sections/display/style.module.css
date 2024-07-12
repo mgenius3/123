@@ -87,4 +87,8 @@
   .image3 {
     background-size: cover;
   }
+
+  .textdetails h6 {
+    font-size: 25px;
+  }
 }

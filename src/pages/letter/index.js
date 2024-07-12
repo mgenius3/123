@@ -31,7 +31,7 @@ const CeoLetter = () => {
           />
         </div>
         <div className={styles.letterContainer}>
-          <h1>A Letter from Our CEO</h1>
+          <h1>A Letter From Our CEO</h1>
           <p>Dear Visitor,</p>
           <p>
             Welcome to the 231 Group of Companies, where innovation and
@@ -72,9 +72,11 @@ const CeoLetter = () => {
             goals.
           </p>
           <p>Warm regards,</p>
-          <p>Jerrydim Ikechukwu</p>
-          <p>Founder and CEO</p>
-          <p>231 Group of Companies</p>
+          <div className={styles.foot}>
+            <p>Jerrydim Ikechukwu</p>
+            <p className="font-bold">Founder and CEO</p>
+            <p className="font-bold">231 Group of Companies</p>
+          </div>
         </div>
       </div>
       <ScrollToTop />

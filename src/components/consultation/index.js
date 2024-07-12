@@ -1,5 +1,6 @@
 import AnimatedSection from "@/components/animatedSection";
 import style from "./style.module.css";
+import Link from "next/link";
 
 export default function Consultation() {
   return (
@@ -14,7 +15,9 @@ export default function Consultation() {
             </p>
           </div>
           <div className={style.button}>
-            <p>Get your Consultation</p>
+            <Link href={"tel:2349159062400"}>
+              <p>+2349159062400</p>
+            </Link>
           </div>
         </div>
       </section>

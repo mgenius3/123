@@ -31,8 +31,11 @@ export default function OilGas() {
       >
         <div className={style.maintop}>
           {/* <div className={style.maintext}>
-            <h1>Explore Our Collection of Oil & Gas Services</h1>
-            <p>Get ready to embark on unforgetable to breaking destinations</p>
+            <h1>Discover Our Comprehensive Range of Oil & Gas Services</h1>
+            <p>
+              Prepare for an unforgettable journey to essential cooking LPG
+              destinations
+            </p>
 
             <Link href="#display">
               <p className={style.button}>Discover Now</p>
