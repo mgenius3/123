@@ -16,7 +16,10 @@ export default function RealEstate() {
         <div className={style.maintop}>
           <div className={style.maintext}>
             <h1>Discover Our Collection of Luxury Homes</h1>
-            <p>Get ready to embark on unforgetable to breaking destinations</p>
+            <p>
+              Get ready to embark on an unforgettable journey to exceptional
+              real estate opportunities.
+            </p>
 
             <Link href={"#discover"}>
               <p className={style.button}>Discover Now</p>
