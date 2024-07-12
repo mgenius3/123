@@ -62,6 +62,7 @@
 .dropdownToggle {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .dropdownToggle::after {
